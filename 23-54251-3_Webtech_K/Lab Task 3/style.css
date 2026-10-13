@@ -1,11 +1,9 @@
-/* Universal Selector */
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
-/* Element Selectors */
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
@@ -27,7 +25,7 @@ table {
 }
 
 th, td {
-    border: 1px solid #bdc3c7; /* Styled table borders */
+    border: 1px solid #bdc3c7; 
     padding: 12px;
     text-align: left;
 }
@@ -56,7 +54,6 @@ legend {
     color: #2c3e50;
 }
 
-/* ID Selector for Navigation Bar */
 #navbar {
     position: fixed;
     top: 0;
@@ -68,7 +65,7 @@ legend {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    z-index: 1000; /* Stays in front of other content during scroll */
+    z-index: 1000;
 }
 
 #navbar h1 {
@@ -76,7 +73,6 @@ legend {
     color: white;
 }
 
-/* Class Selector for About Section */
 .about-section {
     width: 80%;
     max-width: 700px;
@@ -87,7 +83,6 @@ legend {
     border-radius: 8px;
 }
 
-/* Max-width on Image */
 .club-logo {
     max-width: 180px;
     height: auto;
@@ -95,12 +90,11 @@ legend {
     margin-top: 15px;
 }
 
-/* Group Selector for Navigation Links & Footer Links */
 .nav-links a, footer a {
     color: #ffffff;
     text-decoration: none;
     padding: 6px 12px;
-    display: inline-block; /* Side by side layout */
+    display: inline-block; 
 }
 
 /* Hover color for links */
@@ -109,7 +103,6 @@ a:hover, .nav-links a:hover, footer a:hover {
     text-decoration: underline;
 }
 
-/* Additional Form Control Styles */
 .form-group {
     margin-bottom: 15px;
 }
