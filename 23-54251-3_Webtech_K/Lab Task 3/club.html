@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Coding Club</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Fixed Navigation Bar -->
+    <nav id="navbar">
+        <h1>Coding Club</h1>
+        <div class="nav-links">
+            <a href="#about">About</a>
+            <a href="#schedule">Schedule</a>
+            <a href="#register">Register</a>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+        <!-- About Section -->
+        <section id="about" class="about-section">
+            <h2>About Us</h2>
+            <p>Welcome to the University Coding Club! We are a dynamic community of students passionate about programming, building innovative projects, and exploring modern technologies.</p>
+            <img src="logo.png" alt="Coding Club Logo" class="club-logo">
+        </section>
+
+        <!-- Schedule Section -->
+        <section id="schedule" class="schedule-section">
+            <h2>Weekly Schedule</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Day</th>
+                        <th>Time</th>
+                        <th>Activity</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Monday</td>
+                        <td>4:00 PM - 6:00 PM</td>
+                        <td>Python Basics Workshop</td>
+                    </tr>
+                    <tr>
+                        <td>Wednesday</td>
+                        <td rowspan="2">5:00 PM - 7:00 PM</td>
+                        <td>Web Development (HTML & CSS)</td>
+                    </tr>
+                    <tr>
+                        <td>Thursday</td>
+                        <td>Advanced Algorithms</td>
+                    </tr>
+                    <tr>
+                        <td>Friday</td>
+                        <td colspan="2">Open Hackathon & Project Building</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- Registration Form Section -->
+        <section id="register" class="register-section">
+            <form action="#" method="post">
+                <fieldset>
+                    <legend>Student Registration Form</legend>
+                    
+                    <div class="form-group">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="password">Password:</label>
+                        <input type="password" id="password" name="password" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label>Gender:</label>
+                        <input type="radio" id="male" name="gender" value="male">
+                        <label for="male" class="inline-label">Male</label>
+                        <input type="radio" id="female" name="gender" value="female">
+                        <label for="female" class="inline-label">Female</label>
+                        <input type="radio" id="other" name="gender" value="other">
+                        <label for="other" class="inline-label">Other</label>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="department">Department:</label>
+                        <select id="department" name="department">
+                            <option value="cse">Computer Science & Engineering</option>
+                            <option value="eee">Electrical Engineering</option>
+                            <option value="bba">Business Administration</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+
+                    <div class="form-actions">
+                        <button type="submit">Submit</button>
+                        <button type="reset">Reset</button>
+                    </div>
+                </fieldset>
+            </form>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p><a href="https://www.university.edu" target="_blank">Visit University Website</a></p>
+    </footer>
+
+</body>
+</html>
